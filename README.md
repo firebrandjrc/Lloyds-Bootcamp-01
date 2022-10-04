@@ -1,7 +1,5 @@
 # Lloyds-Bootcamp-01
 
-* jrcooper@firebrandtraining.com
-
 ## Content for the week
 
 * HTML & CSS
