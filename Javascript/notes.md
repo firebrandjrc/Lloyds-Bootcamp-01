@@ -6,7 +6,7 @@
     * Camel, Pascal, Snake
 * Arrays, Loops, Functions
 * How it works with HTML
-* OOP (Wednesday)
+* OOP
 
 * Testing with JavaScript
     * Unit Testing with Jest
@@ -292,3 +292,51 @@ console.log(i);
 ```
 
 ## Functions
+
+
+## Equality
+
+```js
+
+let number = "123";
+
+if(number === 123)
+{
+    console.log("The number 123, nice.")
+}
+else if (number == 123)
+{
+    console.log("The value is correct. The type, not so much.");
+}
+
+```
+
+## Prompts
+
+```js
+
+// let userInput = prompt("How old is Jacob?");
+// console.log(userInput);
+// console.log(57);
+
+// == && ===
+// == checks the value of the variable only
+// === checks the value and the type of the variable
+
+function addition(numberOne, numberTwo) {
+    // console.log(numberOne + numberTwo);
+    
+    return numberOne + numberTwo;
+}
+
+if(userInput == 57)
+{
+    console.log("Good choice.")
+    userInput = prompt("Why was there any doubt?");
+    console.log(userInput);
+}
+else {
+    console.log("Well, you think he is older? Wow. Rude.");
+}
+
+```

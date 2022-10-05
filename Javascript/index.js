@@ -1,9 +1,3 @@
-const buttonOne = document.getElementById("buttonOne");
-const body = document.body;
-buttonOne.addEventListener("click", () => {
-    body.style.backgroundColor = "black";
-})
-
 let variable = true;
 var otherVariable = true;
 
