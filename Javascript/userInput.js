@@ -6,24 +6,37 @@ function confirmation() {
     console.log("The process has been completed");
 }
 
+// change the returns to console.logs()
+// create a confirmation function
+// call the confirmation function once the addtion, subtraction etc has finished console logging
+
 function addition(numberOne, numberTwo) {
-    // console.log(numberOne + numberTwo);
-    return numberOne + numberTwo;
+    console.log(numberOne + numberTwo);
+    confirmation();
+    // return numberOne + numberTwo;
 }
+
+addition(15,10);
 
 function subtraction(numberOne, numberTwo) {
-    // console.log(numberOne + numberTwo);
-    return numberOne - numberTwo;
+    console.log(numberOne - numberTwo);
+    confirmation();
+    // return numberOne - numberTwo;
 }
 
+subtraction(15,10);
 function multiplication(numberOne, numberTwo) {
+    console.log(numberOne * numberTwo);
+    confirmation();
     // what will happen?
-    return numberOne * numberTwo;
+    // return numberOne * numberTwo;
 }
 
 function division(numberOne, numberTwo) {
+    console.log(numberOne / numberTwo);
+    confirmation();
     // what will happen?
-    return numberOne / numberTwo;
+    // return numberOne / numberTwo;
 }
 
 function options() {
@@ -32,6 +45,7 @@ function options() {
     if(input == "Floor One")
     {
         floorOne(); // now, go to the function floorOne...
+        
     }
     else if(input == "Floor Two")
     {
@@ -49,6 +63,11 @@ function options() {
 
 function floorOne() {
     console.log("Welcome to Floor One");
+    let input = prompt("Which office do you want?\nOffice 101\nOffice 102")
+    if(input == "Office 101")
+    {
+        office101();
+    }
 }
 
 function floorTwo() {
@@ -59,9 +78,13 @@ function floorThree() {
     console.log("Welcome to Floor Three");
 }
 
-options();
+// options();
 
 // what should the parameters be in the brackets?
 // let answer = addition(firstInput, secondInput);
 // console.log(answer);
 // confirmation(); // calling the function -> running the function
+
+
+
+
